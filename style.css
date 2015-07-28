@@ -4,6 +4,7 @@
   bottom: 30px;
   right: 30px;
 }
+
 body {
   font-family: 'Lato', sans-serif;
   color: #f2f2f2;
@@ -18,15 +19,23 @@ body {
 }
 
 .slide-content {
-  width: 800px;
-  height: 600px;
-  overflow: visible;
-  margin: 80px auto 0 auto;
-  padding: 30px;
-
+  font-size: 150%;
   font-weight: 200;
-  font-size: 200%;
+  height: 600px;
   line-height: 1.375;
+  margin: 10px auto 0;
+  overflow: visible;
+  padding: 0;
+  width: 800px;
+}
+
+.slide-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 500px;
+  max-width: 100%;
+  position: relative;
 }
 
 .controls {
