@@ -1,8 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
-.nklogo  {
+.nklogo {
+  bottom: 1%;
+  max-width: 50%;
   position: absolute;
-  bottom: 30px;
-  right: 30px;
+  right: 1%;
 }
 
 body {
@@ -21,12 +22,12 @@ body {
 .slide-content {
   font-size: 150%;
   font-weight: 200;
-  height: 600px;
+  height: 90%;
   line-height: 1.375;
-  margin: 10px auto 0;
+  margin: auto;
   overflow: visible;
   padding: 0;
-  width: 800px;
+  width: 90%;
 }
 
 .slide-content img {
@@ -172,10 +173,6 @@ pre {
 
   .slide-content {
     width: auto;
-  }
-
-  img {
-    width: 100%;
   }
 
   h1 {
